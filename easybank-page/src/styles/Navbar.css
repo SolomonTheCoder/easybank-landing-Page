@@ -25,7 +25,7 @@ nav ul li a {
   padding: 10px;
 }
 
-nav ul li a:hover {
+nav ul li a:focus {
   color: hsl(233, 26%, 24%);
   border-bottom: 3px solid hsl(136, 65%, 51%);
 }

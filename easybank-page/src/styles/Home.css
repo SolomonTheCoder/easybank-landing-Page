@@ -11,7 +11,7 @@
 
 .Home {
   width: 35%;
-  padding: 0 0 0 50px;
+  padding: 0 0 0 100px;
 }
 
 .Home-image {
@@ -107,7 +107,7 @@ button:hover {
 .Article h1 {
   color: hsl(233, 26%, 24%);
   font-size: 50px;
-  margin: 0 0 60px 40px;
+  margin-bottom: 60px;
 }
 
 .Article-cards ul {
@@ -115,6 +115,7 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   gap: 30px;
+  padding: 0;
 }
 
 .Article-cards ul li {
