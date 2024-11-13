@@ -49,7 +49,12 @@ nav button {
   cursor: pointer;
 }
 
+.NavMenu {
+  display: none;
+}
+
 .Menu {
+  display: none;
   background-color: white;
   position: absolute;
   width: 70%;
@@ -74,7 +79,7 @@ nav button {
     display: none;
   }
 
-  .Menu {
-    display: none;
+  .NavMenu {
+    display: block;
   }
 }
