@@ -18,9 +18,12 @@
   position: absolute;
   top: 8px;
   right: 0%;
-  z-index: 0;
-  overflow: hidden;
+  z-index: 1;
   width: 50%;
+}
+
+.Home-image img {
+  width: 100%;
 }
 
 .Home h1 {
@@ -152,4 +155,75 @@ button:hover {
 .Article-text p {
   font-size: 15px;
   color: hsl(233, 8%, 62%);
+}
+
+@media screen and (max-width: 375px) {
+  .Home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-image: url("../assets/icons/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top 0% left 0%;
+  }
+
+  .Home-image {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    z-index: 0;
+  }
+
+  .Home-image img {
+    width: 200%;
+  }
+
+  .Home {
+    width: 100%;
+    text-align: center;
+    margin-top: 330px;
+    padding: 20px;
+  }
+
+  .Home h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  .Home p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .About {
+    width: 100%;
+    text-align: center;
+  }
+
+  .items ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .items ul li {
+    text-align: center;
+  }
+
+  .Article h1 {
+    text-align: center;
+  }
+
+  .Article-cards ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
 }

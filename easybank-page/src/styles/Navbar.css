@@ -48,3 +48,33 @@ nav button {
   border-radius: 25px;
   cursor: pointer;
 }
+
+.Menu {
+  background-color: white;
+  position: absolute;
+  width: 70%;
+  top: 100%;
+  left: 15%;
+}
+
+.Menu ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  nav ul {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .Menu {
+    display: none;
+  }
+}

@@ -39,6 +39,10 @@ footer {
   gap: 50px;
 }
 
+.Link ul {
+  padding: 0;
+}
+
 .Link ul li {
   list-style: none;
   padding: 0 0 20px 0;
@@ -65,4 +69,33 @@ button {
   border: none;
   border-radius: 25px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .Footer1 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .Footer-logo {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .Link {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .Footer2{
+    text-align: center;
+  }
 }
